@@ -1,15 +1,35 @@
-<nav>
-    <ol>
-        <li>
-            <a [routerLink]="''" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
-        </li>
-        <li>
-            <a [routerLink]="['/emailSubComponent']" href="">Email
-                Sub</a>
-        </li>
-        <li>
-            <a [routerLink]="['/pricingCardsComponent']">Pricing
-                Cards</a>
-        </li>
-    </ol>
-</nav>
+<div class="flex items-center justify-center min-h-screen bg-blue-400">
+    <div class="bg-white p-6 m-3 space-y-10 shadow-2xl rounded-3xl md:p-40">
+        <div class="flex flex-col items-center justify-center space-y-3 md:flex-row md:space-y-0 
+        md:space-x-8 md:mb-24 md:justify-end">
+            <nav>
+                <div class="group">
+                    <a [routerLink]="''" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
+                    <div class="mx-2 mt-2 duration-500 border b-2 opacity-0 border-black group-hover:opacity-100"></div>
+                </div>
+                <div class="group">
+                    <a [routerLink]="['/emailSubComponent']" href="">Email
+                        Sub</a>
+                    <div class="mx-2 mt-2 duration-500 border b-2 opacity-0 border-black group-hover:opacity-100"></div>
+                </div>
+                <div class="group">
+                    <a [routerLink]="['/pricingCardsComponent']">Pricing
+                        Cards</a>
+                    <div class="mx-2 mt-2 duration-500 border b-2 opacity-0 border-black group-hover:opacity-100"></div>
+                </div>
+                <div class="group">
+                    <a [routerLink]="['/productModalComponent']">Product Modal</a>
+                    <div class="mx-2 mt-2 duration-500 border b-2 opacity-0 border-black group-hover:opacity-100"></div>
+                </div>
+                <div class="group">
+                    <a [routerLink]="['/imageGallryComponent']">Image Gallery</a>
+                    <div class="mx-2 mt-2 duration-500 border b-2 opacity-0 border-black group-hover:opacity-100"></div>
+                </div>
+                <div class="group">
+                    <a [routerLink]="['/loginModalComponent']">Login Modal</a>
+                    <div class="mx-2 mt-2 duration-500 border b-2 opacity-0 border-black group-hover:opacity-100"></div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>

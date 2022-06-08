@@ -8,6 +8,8 @@ import { PricingCardsComponent } from './components/pricing-cards/pricing-cards.
 import { NavComponent } from './components/nav/nav.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { ProductModalComponent } from './components/product-modal/product-modal.component';
+import { ImageGallryComponent } from './components/image-gallry/image-gallry.component';
+import { LoginModalComponent } from './components/login-modal/login-modal.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ProductModalComponent } from './components/product-modal/product-modal.
     PricingCardsComponent,
     NavComponent,
     NotFoundComponent,
-    ProductModalComponent
+    ProductModalComponent,
+    ImageGallryComponent,
+    LoginModalComponent
   ],
   imports: [
     BrowserModule,
